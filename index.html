@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SODA</title>
+    <link rel="stylesheet" href="static/styles/topstyle.css">
+    <link rel="stylesheet" href="static/styles/index.css">
+</head>
+
+<body>
+    
+        <svg width="1658" height="1902" viewBox="0 0 1658 1902" fill="none" xmlns="http://www.w3.org/2000/svg" class="svgs">
+            <path id="line"
+                  d="M-2 706.464H1017.54V278.008H1121.1V635.271H958V560.194H1271.26V706.464H1196.18V155.037H1367.04V658.57H1232.42V437.223H1505.55V1H1657V1489M1657 1489H1025M1657 1489V1592M1657 1592H1137M1657 1592V1695M1657 1695H1056M1657 1695V1798.5M1657 1798.5H1178M1657 1798.5V1901H1183"
+                  stroke="white"/>
+        </svg><!--это вектор линии-->
+
+
+        <!-- <svg width="1826" height="1456" viewBox="0 0 1826 1456" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="line_dei"
+                  d="M658.5 1455H187V880.5H406.5V1083.5H0.5V1H1837" stroke="white"/>
+        </svg>        Вот эта ебаная линия всё портит -->
+
+    
+        <button id="startBtn" class="en-text">Frontend</button>
+        <button id="definition" class="en-text">Definition</button>
+        <button id="comparison" class="en-text">Comparison</button>
+        <button id="case" class="en-text">Case</button>
+        <button id="request" class="en-text">Request</button>
+        <button id="sphere" class="en-text">Sphere</button>
+
+        <div id="slogan_90" class="en-text">
+            <p>think different</p>
+        </div>
+    
+        <script>
+            document.getElementById('startBtn').addEventListener("click",function (){
+                document.getElementById('line').style.animation="sign 8s ease"; //создает анимацию линии по нажатию
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:1080, behavior:"smooth"
+                    })
+                },3170); //тут скролл страницы
+                setTimeout(function () {
+                    line.style.strokeDashoffset="0";
+                },3350); //тут короче линия пропадала после анимации, поэтому я сделал таймер и после окончания анимации заменял ее на обычный вектор
+                setTimeout(function (){
+                    document.getElementById('definition').style.color='#FFFFFF'
+                },4040)
+                setTimeout(function (){
+                    document.getElementById('comparison').style.color='#FFFFFF'
+                },4240)
+                setTimeout(function (){
+                    document.getElementById('case').style.color='#FFFFFF'
+                },4440)
+                setTimeout(function (){
+                    document.getElementById('request').style.color='#FFFFFF'
+                },4640)
+                setTimeout(function (){
+                    document.getElementById('sphere').style.color='#FFFFFF'
+                },4840)
+            });
+        </script> <!--это скрипт линии-->
+        
+        <script>
+            document.getElementById('definition').addEventListener("click", function (){
+                document.body.style.backgroundColor='#FFFFFF'
+            });
+            document.getElementById('comparison').addEventListener("click", function (){
+                document.body.style.backgroundColor='#FFFFFF'
+            });
+            document.getElementById('case').addEventListener("click", function (){
+                document.body.style.backgroundColor='#FFFFFF'
+            });
+            document.getElementById('request').addEventListener("click", function (){
+                document.body.style.backgroundColor='#FFFFFF'
+            });
+            document.getElementById('sphere').addEventListener("click", function (){
+                document.body.style.backgroundColor='#FFFFFF'
+            });
+    
+        </script><!--это скрипт кнопок-->
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:wght@200&display=swap");
+
+body {
+  width: 1920px;
+  height: 2160px;
+  background-color: black;
+  overflow-x: hidden;
+  transition: background-color 1s;
+}
+
+.en-text {
+  font-family: Italiana, serif;
+  font-style: normal;
+  font-size: 69px;
+  color: white;
+}
+
+.rus-text {
+  font-family: Literata, serif;
+  font-weight: 100;
+  color: white;
+}
