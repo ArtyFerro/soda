@@ -29,7 +29,7 @@ a::after {
   margin: 0;
 }
 
-.block-text {
+.definition__text {
   display: flex;
   width: 900px;
   height: 500px;
@@ -40,7 +40,7 @@ a::after {
   height: 1000px;
 }
 
-.switch_one {
+.switches__img--one {
   position: absolute;
   bottom: 50px;
   left: 80px;
@@ -48,7 +48,7 @@ a::after {
   opacity: 0.4;
 }
 
-.switch_two {
+.switches__img--two {
   position: absolute;
   bottom: 50px;
   left: 140px;
@@ -87,14 +87,14 @@ a::after {
   }
 }
 
-.circle_one {
+.circle--one {
   position: absolute;
   right: 170px;
   bottom: -280px;
   animation: rotates linear 90s infinite;
 }
 
-.circle_two {
+.circle--two {
   position: absolute;
   right: -220px;
   bottom: -100px;
