@@ -1,3 +1,16 @@
+#body{
+    width: 1920px;
+    height: 2000px;
+    background-color: black;
+    color: #FFFFFF;
+    overflow-x: hidden;
+
+    overflow-y: hidden;
+    transition: background-color  1s;
+    display: flex;
+    flex-direction: column;
+}
+
 @keyframes sign {
     to {
         stroke-dashoffset: 0;
@@ -7,33 +20,81 @@
     position: relative;
     color: orange;
 }/*класс векторов для position*/
-#line_dei{
-    position: absolute;
-    left: 94px;
-    animation-fill-mode: forwards;
-    z-index: 100;
-    top: 1000px;
-}/*вспомогаательный вектор*/
 
 #line {
-    position: absolute;
-    left: -2px;
-    top: 37px;
     stroke-dasharray: 9730;
     stroke-dashoffset: 9730;
     animation-fill-mode: forwards;
-    z-index: 10;
-    color:orange;
 } /*главный вектор*/
+.vector_front {
+    position: absolute;
+    top: 10px;
+}
+#line_dei{
+    position: absolute;
+    animation-fill-mode: forwards;
+    stroke-dasharray: 4793;
+    stroke-dashoffset: 4793;
+}/*definition вектор*/
+.vector_dei{
+    position: absolute;
+    top: 43px;
+    left: 52px;
+}
+#line_com{
+    position: absolute;
+    stroke-dasharray: 4166;
+    stroke-dashoffset: 4166;
+    animation-fill-mode: forwards;
+}
+.vector_com{
+    position: absolute;
+    top:43px;
+    left: 134px;
+}
+#line_case{
+    position: absolute;
+    stroke-dasharray: 4576;
+    stroke-dashoffset: 4576;
+    animation-fill-mode: forwards;
+}
+.vector_case{
+    position: absolute;
+    top:43px;
+    left: 80px;
+}
+#line_req{
+    stroke-dasharray: 4300;
+    stroke-dashoffset: 4300;
+    animation-fill-mode: forwards;
+}
+.vector_req{
+    position: absolute;
+    top:43px;
+    left: 135px;
+}
+#line_sp{
+    position: absolute;
+    stroke-dasharray: 4521;
+    stroke-dashoffset: 4521;
+    animation-fill-mode: forwards;
+}
+.vector_sp{
+    position: absolute;
+    top:43px;
+    left: 135px;
+}
 
 /*кнопки*/
 #startBtn{
     position: absolute;
     width: 271px;
     height: 85px;
-    left: 570px;
-    top: 630px;
+    left: 658px;
+    top: 646px;
 
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 85px;
@@ -49,8 +110,10 @@
     width: 198px;
     height: 60px;
     left: 770px;
-    top: 1460px;
+    top: 1465px;
 
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 51px;
     line-height: 60px;
@@ -68,8 +131,10 @@
     width: 256px;
     height: 60px;
     left: 829px;
-    top: 1560px;
+    top: 1565px;
 
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 51px;
     line-height: 60px;
@@ -85,9 +150,11 @@
 #case{position: absolute;
     width: 126px;
     height: 60px;
-    left: 933px;
-    top: 1665px;
+    left: 880px;
+    top: 1670px;
 
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 51px;
     line-height: 60px;
@@ -103,9 +170,11 @@
 #request{position: absolute;
     width: 196px;
     height: 60px;
-    left: 975px;
-    top: 1769px;
+    left: 932px;
+    top: 1774px;
 
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 51px;
     line-height: 60px;
@@ -121,9 +190,11 @@
 #sphere {position: absolute;
     width: 147px;
     height: 60px;
-    left: 1005px;
-    top: 1868px;
+    left: 986px;
+    top: 1873px;
 
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 51px;
     line-height: 60px;
@@ -136,17 +207,22 @@
     border:transparent;
     background-color: transparent;
 }
-
-#slogan_90 p{
+#slogan_90{
     position: absolute;
-    width: 258px;
+    width: 300px;
     height: 53px;
-    left: 1270px;
-    top: 405px;
-
+    left: 1250px;
+    top: 450px;
+    color: #000000;
+    font-family: 'Italiana';
+    font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 53px;
 
     transform: rotate(90deg);
+    transition: color ease 1s;
+
+    border:transparent;
+    background-color: transparent;
 }

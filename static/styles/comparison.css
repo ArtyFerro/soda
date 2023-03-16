@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 180px;
+  }
+  
+.title {
+    position: absolute;
+    right: 600px;
+    top: 25px;
+}
+  
+.wrapper {
+    height: 1000px;
+}
+
+.block {
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.block_left {
+    width: 49%;
+}
+
+.block_line {
+    width: 2%;
+}
+
+.block_right { 
+    width: 49%;
+}
+
+.rus-text {
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.block_line__palka {
+    position: absolute;
+    width: 0px;
+    height: 15px;
+    
+    border: 1px solid #FFFFFF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
