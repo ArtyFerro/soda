@@ -13,14 +13,9 @@ a::after {
   color: white;
 }
 
-.title {
-  position: absolute;
-  text-align: center;
+.title-definition {
   width: 330px;
   right: 600px;
-  top: 25px;
-  margin-top: 0;
-  background-color: black;
 }
 
 .rus-text {
@@ -41,17 +36,7 @@ a::after {
 }
 
 .switches__img--one {
-  position: absolute;
-  bottom: 50px;
-  left: 80px;
-  transform: rotate(180deg);
   opacity: 0.4;
-}
-
-.switches__img--two {
-  position: absolute;
-  bottom: 50px;
-  left: 140px;
 }
 
 @keyframes rotate {

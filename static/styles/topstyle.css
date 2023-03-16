@@ -22,3 +22,63 @@ body {
   color: white;
 }
 /* nice */
+
+header {
+  height: 180px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a::after {
+  text-decoration: none;
+  color: white;
+}
+
+.en-text__title {
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  margin-top: 0;
+  background-color: black;
+}
+
+.rus-text {
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.switches__img--one {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+  transform: rotate(180deg);
+}
+
+.switches__img--two {
+  position: absolute;
+  bottom: 50px;
+  left: 140px;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  top: 66px;
+  animation: line ease-out 4s;
+}
