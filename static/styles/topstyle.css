@@ -46,12 +46,6 @@ a::after {
   background-color: black;
 }
 
-.rus-text {
-  font-size: 42px;
-  font-weight: 100;
-  margin: 0;
-}
-
 .switches__img--one {
   position: fixed;
   bottom: 50px;
