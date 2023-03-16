@@ -53,14 +53,14 @@ a::after {
 }
 
 .switches__img--one {
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   left: 80px;
   transform: rotate(180deg);
 }
 
 .switches__img--two {
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   left: 140px;
 }
