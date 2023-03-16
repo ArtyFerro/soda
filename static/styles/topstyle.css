@@ -3,9 +3,10 @@
 
 body {
   width: 1920px;
-  height: 2160px;
+  height: 1080px;
   background-color: black;
   overflow-x: hidden;
+  /*  overflow-y: hidden;  */
   transition: background-color 1s;
 }
 
@@ -15,13 +16,12 @@ body {
   font-size: 69px;
   color: white;
 }
-/* leha */
+
 .rus-text {
   font-family: Literata, serif;
   font-weight: 100;
   color: white;
 }
-/* nice */
 
 header {
   height: 180px;
