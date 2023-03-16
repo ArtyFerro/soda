@@ -13,6 +13,11 @@ header {
   top: 25px;
 }
 
+.title-comparison {
+  width: 440px;
+  left: 600px;
+}
+
 .wrapper {
   height: 800px;
 }
