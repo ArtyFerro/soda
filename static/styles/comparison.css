@@ -17,6 +17,13 @@ header {
     height: 800px;
 }
 
+
+.rus-text {
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0;
+}
+
 .block {
     height: 700px;
     width: 100%;
@@ -25,14 +32,28 @@ header {
     flex-wrap: nowrap;
 }
 
+.block_left {
+    width: 49%;
+}
+
 .block_left_title {
     position: absolute;
     top: 250px;
-    left: -400px;
+    left: 338px;
+} 
+
+.block_left_text_list_1 {
+    width: 33%;
+    position: absolute;
+    left: 180px;
+    top: 350px;
 }
 
-.block_left {
-    width: 49%;
+.block_left_text_list_2 {
+    width: 35%;
+    position: absolute;
+    left: 175px;
+    top: 550px;
 }
 
 .block_line {
@@ -41,12 +62,38 @@ header {
     justify-content: center;
 }
 
+.block_line_palka {
+    position: absolute;
+    top: 364px;
+}
+
 .block_right { 
     width: 49%;
 }
 
-.rus-text {
-    font-size: 42px;
-    font-weight: 100;
-    margin: 0;
+.block_right_title {
+    position: absolute;
+    top: 250px;
+    left: 1280px;
+}
+
+.block_right_text_list_1 {
+    width: 30%;
+    position: absolute;
+    left: 1163px;
+    top: 350px;
+}
+
+.block_right_text_list_2 {
+    width: 29%;
+    position: absolute;
+    left: 1162px;
+    top: 418px;
+}
+
+.block_right_text_list_3 {
+    width: 26%;
+    position: absolute;
+    left: 1162px;
+    top: 546px;
 }
