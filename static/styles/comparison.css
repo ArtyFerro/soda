@@ -42,7 +42,6 @@ header {
 }
 
 .block_left_title {
-<<<<<<< HEAD
     position: absolute;
     top: 250px;
     left: 338px;
@@ -60,15 +59,6 @@ header {
     position: absolute;
     left: 175px;
     top: 550px;
-=======
-  position: absolute;
-  top: 250px;
-  left: -400px;
-}
-
-.block_left {
-  width: 49%;
->>>>>>> afbc4182850d02f09a2343718042c6f42a6c3e52
 }
 
 .block_line {
@@ -77,7 +67,6 @@ header {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .block_line_palka {
     position: absolute;
     top: 364px;
@@ -91,16 +80,6 @@ header {
     position: absolute;
     top: 250px;
     left: 1280px;
-=======
-.block_right {
-  width: 49%;
-}
-
-.rus-text {
-  font-size: 42px;
-  font-weight: 100;
-  margin: 0;
->>>>>>> afbc4182850d02f09a2343718042c6f42a6c3e52
 }
 
 .block_right_text_list_1 {
