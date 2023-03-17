@@ -22,11 +22,10 @@ header {
   height: 800px;
 }
 
-
 .rus-text {
-    font-size: 42px;
-    font-weight: 100;
-    margin: 0;
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0;
 }
 
 .block {
@@ -38,27 +37,27 @@ header {
 }
 
 .block_left {
-    width: 49%;
+  width: 49%;
 }
 
 .block_left_title {
-    position: absolute;
-    top: 250px;
-    left: 338px;
-} 
+  position: absolute;
+  top: 250px;
+  left: 338px;
+}
 
 .block_left_text_list_1 {
-    width: 33%;
-    position: absolute;
-    left: 180px;
-    top: 350px;
+  width: 33%;
+  position: absolute;
+  left: 180px;
+  top: 350px;
 }
 
 .block_left_text_list_2 {
-    width: 35%;
-    position: absolute;
-    left: 175px;
-    top: 550px;
+  width: 35%;
+  position: absolute;
+  left: 175px;
+  top: 600px;
 }
 
 .block_line {
@@ -68,37 +67,37 @@ header {
 }
 
 .block_line_palka {
-    position: absolute;
-    top: 364px;
+  position: absolute;
+  top: 364px;
 }
 
-.block_right { 
-    width: 49%;
+.block_right {
+  width: 49%;
 }
 
 .block_right_title {
-    position: absolute;
-    top: 250px;
-    left: 1280px;
+  position: absolute;
+  top: 250px;
+  left: 1280px;
 }
 
 .block_right_text_list_1 {
-    width: 30%;
-    position: absolute;
-    left: 1163px;
-    top: 350px;
+  width: 30%;
+  position: absolute;
+  left: 1163px;
+  top: 350px;
 }
 
 .block_right_text_list_2 {
-    width: 29%;
-    position: absolute;
-    left: 1162px;
-    top: 418px;
+  width: 29%;
+  position: absolute;
+  left: 1162px;
+  top: 418px;
 }
 
 .block_right_text_list_3 {
-    width: 26%;
-    position: absolute;
-    left: 1162px;
-    top: 546px;
+  width: 26%;
+  position: absolute;
+  left: 1162px;
+  top: 546px;
 }
