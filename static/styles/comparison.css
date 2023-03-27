@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   height: 180px;
 }
@@ -25,79 +20,55 @@ header {
 .rus-text {
   font-size: 42px;
   font-weight: 100;
-  margin: 0;
 }
 
-.block {
+.comparison__blocks {
+  display: flex;
   height: 700px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.block_left {
-  width: 49%;
-}
-
-.block_left_title {
-  position: absolute;
-  top: 250px;
-  left: 338px;
-}
-
-.block_left_text_list_1 {
-  width: 33%;
-  position: absolute;
-  left: 180px;
-  top: 350px;
-}
-
-.block_left_text_list_2 {
-    width: 35%;
-    position: absolute;
-    left: 175px;
-    top: 600px;
-}
-
-.block_line {
-  width: 2%;
-  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.block_line_palka {
-  position: absolute;
-  top: 364px;
+.comparison__left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
 }
 
-.block_right {
-  width: 49%;
+.comparison__right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
 }
 
-.block_right_title {
-  position: absolute;
-  top: 250px;
-  left: 1280px;
+.comparison__list-one {
+  margin-left: 40px;
 }
 
-.block_right_text_list_1 {
-  width: 30%;
-  position: absolute;
-  left: 1163px;
-  top: 350px;
+.comparison__list-two {
+  margin-left: 20px;
 }
 
-.block_right_text_list_2 {
-  width: 29%;
-  position: absolute;
-  left: 1162px;
-  top: 418px;
+.list__item-one {
+  margin-left: 40px;
+  margin-bottom: 15px;
 }
 
-.block_right_text_list_3 {
-  width: 26%;
-  position: absolute;
-  left: 1162px;
-  top: 546px;
+.list__item-two {
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+
+.comparison__text-one {
+  font-size: 45px;
+}
+
+.comparison__text-two {
+  font-size: 45px;
 }
