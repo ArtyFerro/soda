@@ -1,128 +1,43 @@
-#body {
-    width: 1920px;
-    height: 1080px;
-
-    background-color: black;
-
-    overflow-x: hidden;
-
-    transition: background-color 1s;
+.title-requests {
+  right: 300px;
+  width: 280px;
 }
 
-@keyframes sign {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
-#line_sp{
-    stroke-dasharray: 1909;
-    stroke-dashoffset: 1909;
-
-    animation-fill-mode: forwards;
-}
-.vec_line{
-    position: absolute;
-    top: 59px;
-}
-
-#sp{
-    position: absolute;
-    text-align: center;
-    width: 260px;
-    height: 81px;
-    left: 1262px;
-    top: 28px;
-
-    font-weight: 400;
-    font-size: 69px;
-    line-height: 81px;
-    background-color: black;
-    outline: none;
-    color: white;
-
-    transition: background-color 1s;
-}
-#txt_r{
-    position: absolute;
-    width: 1300px;
-    height: 150px;
-    left: 260px;
-    top: 228px;
-    font-weight: 400;
-    font-size: 41px;
-    line-height: 50px;
-    /* or 122% */
-    text-align: center;
-    border-width:1px;
-    border-style:solid;
-    border-color: transparent;
-    color: transparent;
-    transition: color 1s;
-}
-#txt_2{
-    position: absolute;
-    width: 961px;
-    height: 50px;
-    left: 87px;
-    top: 515px;
-
-    font-weight: 400;
-    font-size: 42px;
-    line-height: 50px;
-
-    color: transparent;
-
-    border-color: transparent;
-
-    transition: color 1s;
-}
-#txt_3{
-    position: absolute;
-    width: 1446px;
-    height: 325px;
-    left: 165px;
-    top: 596px;
-
-    font-weight: 400;
-    font-size: 39px;
-    line-height: 65px;
-
-
-    color: transparent;
-
-    border-color: transparent;
-
-    transition: color 1s;
-}
-#arr_f{
-
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    left: 184px;
-    top: 986px;
-
-    border:transparent;
-    background-color: transparent;
-
-}
-
-#arr_b{
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    left: 125px;
-    top: 984px;
-
-    border:transparent;
-    background-color: transparent;
-}
 .switches__img--two {
   opacity: 0.4;
 }
 
-.title-sphere {
-  width: 310px;
-  right: 330px;
+.sphere__blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.rus-text {
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0;
+}
+.sphere__top {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 100px;
+  margin-bottom: 70px;
+}
+
+.sphere__topic {
+  width: 1200px;
+  border: 3px double;
+  border-color: white;
+  padding: 2px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.sphere__bottom {
+  margin-left: 100px;
+}
+
+.sphere__list-item {
+  margin-left: 60px;
 }

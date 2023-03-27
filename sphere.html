@@ -15,58 +15,45 @@
     <link rel="icon" type="image/png" sizes="16x16" href="static/files/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="static/files/favicon_io/site.webmanifest">
 </head>
-
-<body id="body">
-    <div class="vec_line">
-        <svg width="1910" height="2" viewBox="0 0 1910 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path id="line_sp" d="M0.5 1H1909.5" stroke="white"/>
-        </svg>
+<header>
+    <div class="line"></div>
+    <div class="en-text">
+      <p class="en-text__title title-requests"><a href="index.html">Sphere</a></p>
     </div>
-    <a href="index.html">
-        <div id="sp">Sphere</div>
-    </a>
-    <div id="txt_r">Фронтенд-разработчики нужны везде — в приложениях, коммерческих и информационных сайтах, всевозможных сервисах</div>
-    <div id="txt_2">Разработчик может работать в:</div>
-    <div id="txt_3">
-        · студиях веб-разработки, создающих дизайны сайтов, их макеты
-        <br>· IT-отделах (банков, сотовых операторов, маркетплейсах)
-        <br>· сфере разработки корпоративного софта, где создают CRM-системы, приложения для бизнеса
-        <br>· государственных организациях, информационных порталах</div>
-    <div class="butt">
-        <button id="arr_f">
-            <svg width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22.5 27.5L19.35 24.2375L27.3375 16.25H0V11.75H27.3375L19.35 3.7625L22.5 0.5L36 14L22.5 27.5Z" fill="white" fill-opacity="0.54"/>
-            </svg>
-        </button>
-        <a href="requests.html">
-            <button id="arr_b">
-                <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.5 40.5L25.65 37.2375L17.6625 29.25H45V24.75H17.6625L25.65 16.7625L22.5 13.5L9 27L22.5 40.5Z" fill="white"/>
-                </svg>
-            </button>
-        </a>
-    </div><!-- СТРЕЛКИ -->
-    <script>
-        setTimeout(function (){
-            /* document.getElementById('body').style.backgroundColor='#000000' */
-            /* document.getElementById('sp').style.backgroundColor='#000000' */
-            setTimeout(function (){
-                document.getElementById('line_sp').style.animation="sign 1s ease";
-                setTimeout(function (){
-                    document.getElementById('line_sp').style.strokeDashoffset="0";
-                },1000)
-            },230)
-            setTimeout(function (){
-                document.getElementById('txt_r').style.color="white";
-                document.getElementById('txt_r').style.borderColor="white";
-                setTimeout(function (){
-                    document.getElementById('txt_2').style.color="white";
-                    setTimeout(function (){
-                        document.getElementById('txt_3').style.color='white';
-                    },150)
-                },250)
-            },550)
-        },100)
-    </script>
-</body>
+  </header>
+  <body>
+    <div class="wrapper">
+      <div class="requests">
+        <div class="sphere__blocks">
+            <div class="sphere__top">
+                <p class="sphere__topic rus-text">Фронтенд-разработчики нужны везде — в приложениях, коммерческих и информационных сайтах, всевозможных сервисах</p>
+            </div>
+            <div class="sphere__bottom">
+                <p class="sphere__text rus-text">Разработчик может работать в:</p>
+                <ul class="sphere__list rus-text">
+                    <li class="sphere__list-item">студиях веб-разработки, создающих дизайны сайтов, их макеты</li>
+                    <li class="sphere__list-item">IT-отделах (банков, сотовых операторов, маркетплейсах)</li>
+                    <li class="sphere__list-item">сфере разработки корпоративного софта, где создают CRM-системы, приложения для бизнеса</li>
+                    <li class="sphere__list-item">государственных организациях, информационных порталах</li>
+                </ul>
+            </div>
+        </div>
+        <div class="switches">
+          <a href="requests.html" class="switches__link">
+            <img
+              class="switches__img switches__img--one"
+              src="static/images/switch.svg"
+              alt=""
+            />
+          </a>
+          <a href="sphere.html" class="switches__link">
+            <img
+              class="switches__img switches__img--two"
+              src="static/images/switch.svg"
+              alt=""
+            />
+          </a>
+      </div>
+    </div>
+  </body>
 </html>
